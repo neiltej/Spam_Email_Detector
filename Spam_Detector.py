@@ -6,7 +6,6 @@ Created on Tue Oct 25 22:24:11 2022
 """
 
 import streamlit as st
-import numpy as np
 import pickle
 
 from tensorflow import keras
@@ -15,10 +14,9 @@ from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 
 
-
 def predict(ham_spam):
-    model = load_model(r'C:\Users\User\Downloads\test_whole_HSmodel.h5')
-    with open('C:\\Users\\User\\Downloads\\tokenizer.pickle','rb') as handle:
+    model = load_model(r'test_HSmodel_r.h5')
+    with open('tokenizer.pickle','rb') as handle:
         tokenizer = pickle.load(handle)
         tokenizer.fit_on_texts(ham_spam)
         x_1 = tokenizer.texts_to_sequences([ham_spam])
