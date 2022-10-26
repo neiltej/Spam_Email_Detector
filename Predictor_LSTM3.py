@@ -62,6 +62,20 @@ def main():
         Link: https://www.kaggle.com/datasets/imdeepmind/preprocessed-trec-2007-public-corpus-dataset
         
         """)
+    
+    st.header("Any Feedback? Let us know.")
+    contact_form = """
+
+    <form action="https://formsubmit.co/ftdsjune@gmail.com" method="POST">
+         <input type="text" name="name" placeholder="Your Name" required>
+         <input type="email" name="email" placeholder="Your Email" required> 
+         <textarea name="message" placeholder="Details of your problem"></textarea>
+         <button type="submit">Send</button>
+    </form>
+
+    """
+    
+    st.markdown(contact_form, unsafe_allow_html = True)
 
 if __name__ == "__main__":
     main()
