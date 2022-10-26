@@ -53,7 +53,8 @@ def main():
     st.header("The Need for Spam Detection")
     st.text("""
         Spam detection algorithms are used to detect and filter junk and spam emails with a high level of accuracy.
-        It is said that around half of all emails are spam, depending on the user. These emails can include scams or viruses intended to cause harm.
+        It is said that around half of all emails are spam, depending on the user. 
+        These emails can include scams or viruses intended to cause harm.
         """)
 
     st.header("Data Source")
