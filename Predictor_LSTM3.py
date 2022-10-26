@@ -16,7 +16,7 @@ from keras_preprocessing.sequence import pad_sequences
 
 def predict(ham_spam):
     model = load_model(r'test_whole_HSmodel.h5')
-    with open('C:\\Users\\User\\Downloads\\tokenizer.pickle','rb') as handle:
+    with open('tokenizer.pickle','rb') as handle:
         tokenizer = pickle.load(handle)
         tokenizer.fit_on_texts(ham_spam)
         x_1 = tokenizer.texts_to_sequences([ham_spam])
