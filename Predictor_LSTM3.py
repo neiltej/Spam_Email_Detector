@@ -69,6 +69,7 @@ def main():
     <form action="https://formsubmit.co/ftdsjune@gmail.com" method="POST">
          <input type="text" name="name" placeholder="Your Name" required>
          <input type="email" name="email" placeholder="Your Email" required> 
+         <input type="text" name="message"  placeholder="Input your feedback" required> 
          <textarea name="message" placeholder="Details of your problem"></textarea>
          <button type="submit">Send</button>
     </form>
