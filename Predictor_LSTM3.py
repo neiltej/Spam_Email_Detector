@@ -42,8 +42,13 @@ def main():
         elif prediction > 0.5:
             st.success('The email is spam')
             
-    
-    
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
     
     st.header("The Need for Spam Detection")
     st.text("""
