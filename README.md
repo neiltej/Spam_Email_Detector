@@ -2,7 +2,7 @@
 
 Spam emails such as phishing and advertisements cost businesses and individuals millions of dollars annually. 
 
-There are several techniques to automatically detect spam emails, although none of them have showed 100% predicative accuracy. 
+There are several techniques to automatically detect spam emails, although none of them have showed 100% predictive accuracy. 
 
 Among all proposed models, machine learning and deep learning algorithms have achieved better accuracy. 
 
