@@ -8,4 +8,4 @@ Among all proposed models, machine learning and deep learning algorithms have ac
 
 We have used Natural Language Processing including stopwords removal, stemming and ascii character removal to improve the accuracy of our data, before passing it on for Machine Learning and Deep Learning.
 
-final_script_riya.ipynb is the final Python script used for the project.
+final_script_riya.ipynb is the Python script used for the project.
